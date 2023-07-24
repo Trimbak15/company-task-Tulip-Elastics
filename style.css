@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* given margin left & right equal not to overflow beyond that and it should look neat and tiddy */
+
+body {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+/* section name as top  */
+
+.top {
+    display: flex;
+    gap: 15rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.block {
+    display: flex;
+    gap: 8rem;
+}
+
+
+/* need to seperate for designing purpose uising flex */
+
+.another {
+    display: flex;
+    gap: 3rem;
+    margin-right: 2rem;
+}
+
+
+/* tulip heading in yellow color */
+
+.heading {
+    color: rgb(237, 237, 11);
+}
+
+
+/* section name as top 2 */
+
+.top2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.left {
+    width: 16.5rem;
+}
+
+.right {
+    display: flex;
+    gap: 3rem;
+}
+
+
+/* address and pin  */
+
+.address {
+    width: 24rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.address>.bold {
+    font-weight: 700;
+}
+
+
+/* shipping address and pin  */
+
+.shipping {
+    margin-right: 11rem;
+}
+
+.shipping>.bold {
+    font-weight: 700;
+}
+
+
+/* section 3 name as top 3 */
+
+.top3 {
+    display: flex;
+    gap: 15rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+/* some info related customer */
+
+.left1>p b {
+    display: inline-block;
+    text-align: center;
+}
+
+.left1>p a {
+    display: inline-block;
+    text-align: left;
+    width: 9rem;
+}
+
+.left1>p strong {
+    display: inline-block;
+    width: 11rem;
+}
+
+
+/* sections divided for better understanding */
+
+.right1 {
+    display: flex;
+    gap: 6rem;
+}
+
+.right1>.message {
+    font-size: 20px;
+    margin-top: 6rem;
+}
+
+
+/* details info about the qty % etc arranged over here */
+
+.extra>p b {
+    display: inline-block;
+    text-align: center;
+}
+
+.extra>p a {
+    display: inline-block;
+    text-align: left;
+}
+
+.extra>p strong {
+    display: inline-block;
+    width: 9rem;
+}
+
+
+/* table */
+
+.table {
+    margin-top: 1rem;
+    ;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 2px solid #0b0b0b;
+    padding: 2px;
+    text-align: center;
+}
+
+th {
+    border: 2px solid #080808;
+    background-color: #70d17e;
+    padding: 8px;
+}
+
+
+/* total */
+
+.total {
+    margin-left: 56.9rem;
+}
+
+
+/* quantity and overall bill */
+
+.extra1>p b {
+    display: inline-block;
+    text-align: center;
+}
+
+.extra1>p a {
+    display: inline-block;
+    text-align: right;
+    width: 20rem;
+}
+
+.extra1>p strong {
+    display: inline-block;
+    text-align: right;
+    width: 7rem;
+}
+
+.extra1 {
+    margin-left: 60rem;
+    margin-top: 1rem;
+}
+
+
+/* container */
+
+.container {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.terms>p {
+    font-size: 13px;
+}
+
+.terms>a {
+    color: rgb(39, 39, 235);
+}
+
+.order>p {
+    font-size: 13px;
+}
+
+.order>a {
+    color: rgb(0, 0, 253);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.margin {
+    margin-top: 4rem;
+}
